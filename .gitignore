@@ -1,4 +1,8 @@
-﻿*.tfstate
-*.tfstate.*
+﻿# Local Terraform state & plugin files
 .terraform/
 .terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Secret variables file containing tokens & webhooks
+terraform.tfvars

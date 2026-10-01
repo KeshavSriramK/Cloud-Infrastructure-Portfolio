@@ -1,0 +1,6 @@
+discord_webhook_url = "https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
+duckdns_domain      = "your-domain.duckdns.org"
+duckdns_token       = "your-duckdns-token"
+cert_email          = "your-email@example.com"
+aws_region          = "us-east-1"
+environment         = "prod"
