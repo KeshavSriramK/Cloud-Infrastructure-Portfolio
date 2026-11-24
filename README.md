@@ -15,8 +15,8 @@ Each project represents a step forward in cloud engineering maturity—progressi
 | **03** | [Containerized Game Server & Automated SSL](./03-containerized-game-server-ssl) | Containerized workload behind an Nginx reverse proxy, automated Let's Encrypt TLS certificates, and a Python Discord monitoring daemon. | `Docker` `Nginx` `SSM` `Python` | 🟢 Completed |
 | **04** | [Automated VPC, EC2 & S3 Provisioning](./04-automated-vpc-ec2-s3-provisioning) | End-to-end Terraform deployment of a segmented VPC, web server instance, and private S3 bucket with strict access controls. | `AWS VPC` `S3` `Bash` `Terraform` | 🟢 Completed |
 | **05** | [Serverless Event-Driven Event Matcher](./05-serverless-event-driven-matcher) | Event-driven backend using API Gateway, AWS Lambda (Python), EventBridge, DynamoDB, and Amazon SES for automated notifications. | `Lambda` `API Gateway` `DynamoDB` `SES` | 🟢 Completed |
-| **06** | [CloudFront OAC Secure Static Website](./06-cloudfront-oac-secure-website) | Hardened static hosting with a private S3 bucket locked behind CloudFront Origin Access Control (OAC) and HTTPS enforcement. | `CloudFront` `S3` `OAC` `Terraform` | 🟡 In Progress |
-| **07** | High-Availability 3-Tier Web Architecture | Fault-tolerant multi-AZ architecture spanning private subnets, an Application Load Balancer (ALB) with SSL, and an Auto Scaling Group. | `ALB` `ASG` `VPC` `Terraform` | 🔵 Planned |
+| **06** | [CloudFront OAC Secure Static Website](./06-cloudfront-oac-secure-website) | Hardened static hosting with a private S3 bucket locked behind CloudFront Origin Access Control (OAC) and HTTPS enforcement. | `CloudFront` `S3` `OAC` `Terraform` | 🟢 Completed |
+| **07** | High-Availability 3-Tier Web Architecture | Fault-tolerant multi-AZ architecture spanning private subnets, an Application Load Balancer (ALB) with SSL, and an Auto Scaling Group. | `ALB` `ASG` `VPC` `Terraform` | 🟡 In Progress |
 | **08** | Automated FinOps & Security Auditor | Governance script running on an EventBridge schedule via Lambda to scan and prune unattached EBS volumes and idle cloud resources. | `Lambda` `EventBridge` `Python` | 🔵 Planned |
 
 ---
